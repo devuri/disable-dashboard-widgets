@@ -31,13 +31,13 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with Easy Dashboard Widgets Removal. If not, see http://www.gnu.org/licenses/
- *  ----------------------------------------------------------------------------
- *  @package   SwDashboardWidgetsRemoval
- *  @author    Switch Web Dev
- *  @link      https://switchwebdesign.io
- *  @since     1.2.0
- *  @license   GPL-2.0+
- *	@copyright Copyright (c) 2020 Uriel Wilson.
+ * ----------------------------------------------------------------------------
+ * @package   SwDashboardWidgetsRemoval
+ * @author    Switch Web Dev
+ * @link      https://switchwebdesign.io
+ * @since     1.2.0
+ * @license   GPL-2.0+
+ * @copyright Copyright (c) 2020 Uriel Wilson.
  *  ----------------------------------------------------------------------------
  */
 
