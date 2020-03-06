@@ -76,6 +76,7 @@
         $wp_meta_boxes['dashboard']['side']['core'] = array();
       }
     }
+  }
 #  ----------------------------------------------------------------------------
     // initialize
     new SwRemoveDashWidgets();
