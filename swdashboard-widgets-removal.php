@@ -58,7 +58,7 @@
  *
  * @since 1.0
  */
-  class SwRemoveDashWidgets {
+  final class SwRemoveDashWidgets {
 
     public function __construct() {
       add_action( 'wp_dashboard_setup', array( $this, 'swdwp_remove_dashboard_widgets'),9999 );
