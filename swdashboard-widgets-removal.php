@@ -53,30 +53,15 @@
     define('SWDEDWR_URL', plugins_url( '/',__FILE__ ));
 #  ----------------------------------------------------------------------------
 
-/**
- *  Main Class to handle Widget Removal
- *
- * @since 1.0
- */
-  final class SwRemoveDashWidgets {
-
-    public function __construct() {
-      add_action( 'wp_dashboard_setup', array( $this, 'swdwp_remove_dashboard_widgets'),9999 );
-    }
-    /**
-      * Remove the Widgets ( do a check if the user can manage_options )
-      * we should add an option for this to allow admins to choose who can view lowest level etc
-      * @since 1.0
-      */
-    public function swdwp_remove_dashboard_widgets() {
-
-      if ( ! current_user_can( 'manage_options' ) ) {
-        global $wp_meta_boxes;
-        $wp_meta_boxes['dashboard']['normal']['core'] = array();
-        $wp_meta_boxes['dashboard']['side']['core'] = array();
-      }
-    }
-  }
-#  ----------------------------------------------------------------------------
-    // initialize
-    new SwRemoveDashWidgets();
+	/**
+	 *  Main Class to handle Widget Removal
+	 *
+	 * @since 1.0
+	 */
+	add_action( 'wp_dashboard_setup', function () {
+		if ( ! current_user_can( 'manage_options' ) ) {
+		  global $wp_meta_boxes;
+		  $wp_meta_boxes['dashboard']['normal']['core'] = array();
+		  $wp_meta_boxes['dashboard']['side']['core'] = array();
+		}
+	}, 9999 );
