@@ -54,7 +54,7 @@
 #  ----------------------------------------------------------------------------
 
 	/**
-	 *  Main Class to handle Widget Removal
+	 *  handle Widget Removal
 	 *
 	 * @since 1.0
 	 */
