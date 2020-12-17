@@ -2,9 +2,9 @@
 Contributors: icelayer
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6D6W2KXB88NKE
 Tags: widgets, dashboard, disable widgets, remove widgets,
-Requires at least: 5.6
+Requires at least: 3.4
 Tested up to: 5.6
-Stable tag: 0.0.9
+Stable tag: 0.1.5
 Requires PHP: 5.6
 License: GNU Version 2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
