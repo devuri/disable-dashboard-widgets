@@ -10,8 +10,6 @@ CHANGELOG.md export-ignore
 composer.json export-ignore
 composer.lock export-ignore
 package.json export-ignore
-LICENSE.md export-ignore
-LICENSE export-ignore
 phpcs.xml export-ignore
 phpcs.xml.dist export-ignore
 phpstan.neon export-ignore
