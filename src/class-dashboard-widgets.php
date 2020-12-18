@@ -36,7 +36,7 @@ if ( ! class_exists( 'SwitchWeb\Dashboard_Widgets' ) ) {
 		 * @return void
 		 */
 		public function disable() {
-			add_action( 'wp_dashboard_setup', array( $this, 'widgets' ), 99 );
+			add_action( 'wp_dashboard_setup', array( $this, 'remove_all_metaboxes' ), 99 );
 		}
 
 		/**
@@ -44,7 +44,7 @@ if ( ! class_exists( 'SwitchWeb\Dashboard_Widgets' ) ) {
 		 *
 		 * @return void
 		 */
-		public function widgets() {
+		public function remove_all_metaboxes() {
 			if ( ! current_user_can( 'manage_options' ) ) {
 			  global $wp_meta_boxes;
 			  $wp_meta_boxes['dashboard']['normal']['core'] = array();
