@@ -3,7 +3,7 @@ Contributors: icelayer
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6D6W2KXB88NKE
 Tags: widgets, dashboard, disable widgets, remove widgets,
 Requires at least: 3.4
-Tested up to: 5.6
+Tested up to: 5.7
 Stable tag: 0.1.11
 Requires PHP: 5.6
 License: GNU Version 2
