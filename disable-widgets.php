@@ -12,7 +12,7 @@
  * Plugin Name:       Disable Dashboard Widgets
  * Plugin URI:        https://switchwebdev.com/wordpress-plugins/
  * Description:       This plugin will remove all widgets from Dashboard for all users except the Administrator.
- * Version:           0.1.13
+ * Version:           0.1.14
  * Requires at least: 3.4
  * Requires PHP:      5.6
  * Author:            Uriel Wilson
